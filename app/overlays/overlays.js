@@ -2,12 +2,14 @@
 
 import {BugsOverlay} from './bugs/bugs-overlay';
 import {SnowStormOverlay} from './snowstorm/snowstorm-overlay';
+import {RainyDayOverlay} from './rainyday/rainyday-overlay';
 import {NoneOverlay} from './none/none-overlay';
 
 // Add additional overlays here...
 export const OVERLAYS = [
     new BugsOverlay(),
     new SnowStormOverlay(),
+    new RainyDayOverlay(),
     new NoneOverlay()
 ];
 
